@@ -1,0 +1,189 @@
+html {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/413/476/27/night-sky-dark-color-wallpaper-preview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.box-contacto {
+    width: 240rem;
+    max-width: 150rem;
+    height: 70rem;
+    margin: auto;
+    
+    margin-top: 8%;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-contenido {
+    height: 100%;
+    padding: 5rem 7rem;
+    margin: auto;
+}
+
+.box-contenido h1 {
+    font-size: 3rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.box-contenido p {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+
+}
+
+.box-contenido .nombre {
+    width: 100rem;
+    height: 5rem;
+    margin-left: 2rem;
+    margin-top: 3.5rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-contenido .nombre  {
+    font-size: 2rem;
+    gap: 1rem;
+    margin-left: 2rem;
+
+    border-radius: 5px;
+    display: flex;
+    align-self: center;
+    justify-content: start;
+}
+
+.box-contenido .nombre input {
+    height: 2rem;
+    margin-left: 14.3rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.box-contenido .gmail {
+    width: 100rem;
+    height: 5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.box-contenido .gmail label  {
+    width: 22rem;
+    font-size: 2rem;
+}
+
+.box-contenido .gmail input {
+    width: 30rem;
+    height: 2rem;
+
+    margin-left: 7.76rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.box-contenido .telefono {
+    width: 100rem;
+    height: 5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.box-contenido .telefono input {
+    height: 2rem;
+
+    margin-left: 12.1rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.box-contenido .telefono label  {
+    width: 22rem;
+    font-size: 2rem;
+}
+
+.box-contenido .contactanos {
+    width: 100rem;
+    height: 5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.box-contenido .contactanos label  {
+    width: 22rem;
+    font-size: 2rem;
+}
+
+.box-contenido .contactanos input {
+    width: 49.2rem;
+    height: 8rem;
+
+    margin-left: 3.3rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.box-contenido .remember {
+    width: 60rem;
+    height: 5rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-contenido .remember label  {
+    font-size: 2rem;
+    display: flex;
+    border: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box-contenido .remember input {
+    width: 10em;
+    height: 4rem;
+
+    border: none;
+    margin-left: -3.5rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.box-contenido .boton-evr button{
+    width: 15rem;
+    height: 4rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #5a7ee2 46%, #6a41ff 100%);   
+    border-radius: 3px;
+    color: white;
+    border: none;
+}
