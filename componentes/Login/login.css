@@ -1,0 +1,152 @@
+.box-login {
+    width: 240rem;
+    max-width: 150rem;
+    height: 70rem;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: 75rem auto;
+}
+
+.box-login .formulario {
+    height: 100%;
+    padding: 5rem 7rem;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8);
+    gap: 1rem;
+}
+
+.box-login .logo {
+    font-size: 2rem;
+    grid-column: 1/9;
+}
+
+.box-login h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    grid-column: 1/9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box-login .btn-facebook {
+    width: 20.5rem;
+    height: 4rem;
+    grid-column: 1/4;
+    font-size: 1.3rem;
+
+    color: white;
+    background-color: rgb(58, 140, 248);
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-facebook img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}
+
+.btn-xing img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}
+
+.box-login .btn-xing {
+    width: 20.5rem;
+    height: 4rem;
+    grid-column: 5/8;
+    font-size: 1.3rem;
+
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login span {
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/9;
+}
+
+#login {
+    grid-column: 1/9;
+
+}
+
+#login label {
+    color: gray;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#login input {
+    height: 4rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    outline: none;
+    border-bottom: 2px solid skyblue;
+}
+
+#login .opciones label {
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+#login .opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#login .opciones label input {
+    width: 2rem;
+}
+
+#login .botones button {
+    width: 15rem;
+    height: 4rem;
+    background-color: gray;
+    border-radius: 3px;
+    color: white;
+    border: none;
+}
+
+#login .botones .btn-login {
+    width: 15rem;
+    height: 4rem;
+    color: white;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);     
+}
+
+.banner {
+    width: 100%;
+    height: 69.8rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
