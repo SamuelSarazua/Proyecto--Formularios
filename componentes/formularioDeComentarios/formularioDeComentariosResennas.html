@@ -7,10 +7,70 @@
 
     <link rel="stylesheet" href="formularioDeComentariosResennas.css">
     <link rel="stylesheet" href="../../config/config.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <h2>Formulario de Reseñas</h2>
-    <script src="formularioDeComentariosResennas.js"></script>
-
+    <section class="box-reseñas">
+        <div class="nombreCompleto">
+            <h1>Nombre completo</h1>
+            <form action="" id="Reseñas">
+                <label for="">
+                    Primer Nombre
+                    <input type="text">
+                </label>
+                <label for="">
+                    Primer Apellido
+                    <input type="text">
+                </label>
+            </form>
+        </div>
+        <div class="fecha">
+            <h1>Fecha</h1>
+            <form action="" id="Reseñas2">
+                <label for="">
+                    <span class="material-symbols-outlined">
+                        calendar_month
+                        </span>
+                    <input type="date">
+                </label>
+            </form>
+        </div>
+        <div class="calificacion">
+            <h1>¿ Que tal el recorrido en este formulario?</h1>
+            <form action="" id="Reseñas3">
+                <label for="">
+                    <input type="checkbox">
+                    Muy satisfecho
+                </label>
+                <label for="">
+                    <input type="checkbox">
+                    Neutral
+                </label>
+                <label for="">
+                    <input type="checkbox">
+                    Muy malo
+                </label>
+            </form>
+        </div>
+        <div class="estrellas">
+            <h1>Califica nuestro formulario</h1>
+            <div class="resenna">
+            <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5 stars">★</label>
+            <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 stars">★</label>
+            <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 stars">★</label>
+            <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 stars">★</label>
+            <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 star">★</label>
+        </div>
+        </div>
+        <div class="comentario">
+            <h1>Comentarios y notas adicionales</h1>
+            <form action="" id="Reseñas4">
+                <label for="">
+                    <input type="text">
+                </label>
+            </form>
+            <button>Enviar</button>
+        </div>
+    </section>
 </body>
 </html>
