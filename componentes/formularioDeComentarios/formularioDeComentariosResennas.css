@@ -1,0 +1,199 @@
+html{
+    background-image: url("https://c.wallhere.com/photos/21/29/2560x1600_px_clouds_Desert_highway_Infinity_landscapes_roads_skyscapes-1860419.jpg!d");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.box-reseñas{
+    width: 240rem;
+    max-width: 150rem;
+    height: 80rem;
+    margin: auto;
+    margin-top: 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombreCompleto{
+    width: 100rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.nombreCompleto h1{
+    color:black;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+
+#Reseñas{
+    display: flex;
+    gap: 10rem;
+}
+
+#Reseñas label{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#Reseñas input{
+    width:30rem;
+    height: 6rem;
+    border: none;
+    outline: none;
+    background-color: rgb(236, 234, 234);
+
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.fecha{
+    width: 100rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fecha h1{
+    color:black;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+#Reseñas2 label{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#Reseñas2 label span{
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+#Reseñas2 input{
+    width:30rem;
+    height: 6rem;
+    border: none;
+    outline: none;
+    background-color: rgb(236, 234, 234);
+
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.calificacion{
+    width: 100rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.calificacion h1{
+    color:black;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+#Reseñas3 label{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+#Reseñas3 input{
+    width: 3rem;
+    height: 5rem;
+    border: none;
+    outline: none;
+    background-color: rgb(236, 234, 234);
+}
+
+.estrellas{
+    width: 100rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.estrellas h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.resenna{
+    width: 100rem;
+    direction: rtl;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.resenna input {
+    display: none;
+
+}
+
+.resenna label {
+    
+    font-size: 4rem;
+    color: #ccc;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.resenna label:hover,
+.resenna label:hover ~ label,
+.resenna input:checked ~ label {
+    color: gold;
+}
+
+.comentario{
+    width: 100rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.comentario h1{
+    text-align: center;
+    color:white;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+
+#Reseñas4 input{
+    width: 90rem;
+    height: 8rem;
+    border: none;
+    outline: none;
+    background-color: rgb(252, 248, 248);
+
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.comentario button{
+    width: 15rem;
+    font-size: 20px;
+    font-weight: 600;
+}
